@@ -22,7 +22,7 @@ mongoose.connect(process.env.MONGO_URL,{useUnifiedTopology:true,useNewUrlParser:
 
 
 app.get('/',(req,res)=>{
-    res.send("gfergferfr")
+    res.send("hello world")
 });
 
 
